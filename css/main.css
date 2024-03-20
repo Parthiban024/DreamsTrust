@@ -1,0 +1,51 @@
+.logo{
+    height:70px;
+}
+.donate{
+    background-color: #b44a51 !important;
+    color: #fff !important;
+}
+.flexOne{
+    display: flex;
+    justify-content: space-between;
+}
+.head{
+    color: #fff !important;
+}
+.navbar-nav > .nav-item > .nav-link {
+    font-size: 16px;
+    padding-top: 0.9rem;
+    padding-bottom: 0.9rem;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: rgba(255, 255, 255, 0.979);
+    font-weight: 400;
+    opacity: 1 !important;
+}
+.carousel-item img {
+    width: 100%;
+    height: auto;
+    max-height: 95vh; /* Adjust to fit your needs */
+    object-fit: cover;
+  }
+  .contact{
+    width: 100%;
+    height: 54vh;
+    margin-top: 55px;
+  }
+    /* Styles for the QR code popup */
+    .qr-popup {
+        display: none;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        background-color: rgba(0, 0, 0, 0.7);
+        padding: 20px;
+        border-radius: 10px;
+        z-index: 9999;
+    }
+    .qr-popup img {
+        max-width: 100%;
+        height: auto;
+    }
