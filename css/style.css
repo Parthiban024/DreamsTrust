@@ -7282,7 +7282,10 @@ body {
 
 span {
   color: #bfbfbf; }
-
+.managing{
+  color: #000 !important;
+  font-weight: 700;
+}
 a {
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;
@@ -8493,15 +8496,16 @@ textarea.form-control {
   position: relative;
   z-index: 0; }
 
-.block-20 {
-  overflow: hidden;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center center;
-  position: relative;
-  display: block;
-  width: 100%;
-  height: 270px; }
+  .block-20 {
+    overflow: hidden;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 377px;
+}
 
 .blog-entry {
   border: 1px solid #f2f2f2;
